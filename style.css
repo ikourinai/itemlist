@@ -1,0 +1,118 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fff8ec;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+#wrap {
+	width: 80%;
+	max-width: 800px;
+	margin: 20px auto;
+	background-color: #ffffff;
+	border: 1px solid #f5d6b4;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+#head {
+	text-align: center;
+	background-color: #fce5cd;
+	border-radius: 8px 8px 0 0;
+	padding: 10px 0;
+}
+
+#head h1 {
+	margin: 0;
+	color: #d2691e;
+}
+
+#content {
+	padding: 20px;
+	text-align: center;
+}
+
+#content p {
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+dl {
+	margin: 0;
+	display: inline-block;
+    text-align: left;
+}
+
+dt {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 15px 0;
+}
+
+input[type="text"] {
+	width: 100%;
+	max-width: 400px;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+input[type="submit"] {
+	background-color: #f4a460;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #e9967a;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+/* 商品一覧 */
+th, td {
+	border: 1px solid #999;
+	padding: 3px;
+}
+
+th {
+	background-color: #fce5cd;
+	color: #d2691e;
+	font-weight: bold;
+}
+td a + a {
+	margin-left: 1rem;
+}
+table {
+	border-collapse: collapse;
+}
+
+@media (max-width: 600px) {
+	#wrap {
+		padding: 15px;
+	}
+
+	input[type="text"] {
+		max-width: 100%;
+	}
+
+	input[type="submit"] {
+		width: 100%;
+		padding: 12px;
+	}
+}
